@@ -2,9 +2,21 @@ Maintainers: David Wu (@davidswu),
              Ryan Abrams (@caervs)
 GitRepo: https://github.com/docker/distribution-library-image.git
 
-Tags: 2.6.2, 2.6, 2, latest
-GitFetch: refs/heads/master
-GitCommit: 15dbd1a011dbda8da055d6cea8bc1e7705c32ead
+Tags: 2.7.0, 2.7, 2, latest
+Architectures: amd64, arm64v8, arm32v6
+GitFetch: refs/heads/registry-v2.7.0
+GitCommit: c8fb369af7ecefd44047f5140a5180ac8d643100
+amd64-Directory: amd64
+arm32v6-Directory: arm
+arm64v8-Directory: arm64
+
+Tags: 2.6.2, 2.6
+Architectures: amd64, arm64v8, arm32v6
+GitFetch: refs/heads/registry-2.6
+GitCommit: 958adb17f7848783c6fefe8b0e770106eb75302d
+amd64-Directory: amd64
+arm32v6-Directory: arm
+arm64v8-Directory: arm64
 
 Tags: 2.5.2, 2.5
 GitFetch: refs/heads/registry-v2.5
